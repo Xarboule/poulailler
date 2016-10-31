@@ -13329,17 +13329,17 @@ Source: www.kingbright.com</description>
 </net>
 <net name="CLOSE" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="A2"/>
-<junction x="-33.02" y="-38.1"/>
-<wire x1="-33.02" y1="-38.1" x2="-27.94" y2="-38.1" width="0.1524" layer="91"/>
-<label x="-27.94" y="-38.1" size="1.9304" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="CLOSE" gate="G$1" pin="DATA"/>
 <junction x="144.78" y="12.7"/>
 <wire x1="144.78" y1="12.7" x2="149.86" y2="12.7" width="0.1524" layer="91"/>
 <label x="149.86" y="10.16" size="1.778" layer="95" xref="yes"/>
 <wire x1="149.86" y1="12.7" x2="149.86" y2="10.16" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="10"/>
+<junction x="-33.02" y="-58.42"/>
+<wire x1="-33.02" y1="-58.42" x2="-27.94" y2="-58.42" width="0.1524" layer="91"/>
+<label x="-27.94" y="-58.42" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="OPEN" class="0">
@@ -13359,16 +13359,16 @@ Source: www.kingbright.com</description>
 </net>
 <net name="SENSE" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="5"/>
-<junction x="-76.2" y="-43.18"/>
-<wire x1="-76.2" y1="-43.18" x2="-81.28" y2="-43.18" width="0.1524" layer="91"/>
-<label x="-81.28" y="-43.18" size="1.778" layer="95" rot="MR0" xref="yes"/>
-</segment>
-<segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <junction x="68.58" y="-68.58"/>
 <wire x1="68.58" y1="-68.58" x2="73.66" y2="-68.58" width="0.1524" layer="91"/>
 <label x="73.66" y="-68.58" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="A2"/>
+<junction x="-33.02" y="-38.1"/>
+<wire x1="-33.02" y1="-38.1" x2="-27.94" y2="-38.1" width="0.1524" layer="91"/>
+<label x="-27.94" y="-38.1" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
